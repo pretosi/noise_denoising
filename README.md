@@ -1,0 +1,2 @@
+Here, I use OpenCV to apply median filtering iteratively on a noisy image to reduce noise. It first loads the noisy image from the specified path and makes a copy for later comparison. A loop applies a 5x5 median filter 30 times, updating the image iteratively to enhance noise reduction.
+The median filtering method is particularly effective for removing salt-and-pepper noise while preserving edges
